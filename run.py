@@ -1,6 +1,6 @@
 import unittest
-from jiekou.HTMLTestReportCN import HTMLTestRunner
-from jiekou.common import get_time,REPORTPATH
+from HTMLTestReportCN import HTMLTestRunner
+from common import get_time,REPORTPATH
 
 datetime = get_time()
 tests = unittest.defaultTestLoader.discover('')

@@ -1,7 +1,7 @@
 import requests
 import unittest
-from jiekou.common import con_mysql,execute_sql,close,get_time,url_base
-from jiekou.base_data import get_data
+from common import con_mysql,execute_sql,close,get_time,url_base
+from base_data import get_data
 mark = 0
 class test_ad(unittest.TestCase):
     def setUp(self):

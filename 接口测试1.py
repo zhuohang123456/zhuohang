@@ -1,4 +1,4 @@
-import requests
+'''import requests
 url = 'http://127.0.0.1:8000/api/get_event_list/'
 data = {'eid':1212}
 r = requests.get(url,data)
@@ -21,4 +21,4 @@ print(res)
 if res['message'] == 'add event success' and res['status'] == 10000:
     print('pass')
 else:
-    print('fail')
+    print('fail')'''
